@@ -3,8 +3,8 @@ def palyndrome(word):
     if len(word) <= 1:
         return True
     else:
-        return (word[0] == word[-1] and
-                palyndrome(word[1:-1]))
+        return (word[0] == word[-1] and palyndrome(word[1:-1]))
+
 
 def palyndrome_banale(word):
     return word[::-1] == word

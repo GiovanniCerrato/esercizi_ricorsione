@@ -1,3 +1,5 @@
+from array import array
+
 def factorial(n):
     #condizione terminale
     if n == 0 or n == 1:
