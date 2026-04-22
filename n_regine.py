@@ -1,8 +1,5 @@
 from time import time
 
-from anyio.functools import lru_cache
-
-
 class NRegine():
 
     def __init__(self):
@@ -78,7 +75,7 @@ class NRegine():
 if __name__ == "__main__":
     nreg = NRegine()
     start_time = time()
-    nreg.solve2(4)
+    nreg.solve2(6)
     end_time = time()
 
     print(f"Elapsed time = {end_time - start_time}")
